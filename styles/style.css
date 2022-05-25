@@ -1,0 +1,36 @@
+*,*::before, *::after{
+    box-sizing: border-box;
+    margin:10px;
+    padding:0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    text-align: center;
+    font-family: Arial;
+    font-size: xx-large;
+}
+
+.Aesthetics{
+    background-color: peachpuff;
+}
+
+#header{
+    height:10%;        
+}
+#nav{
+    height:10%;
+}
+#middle{
+    display: flex;
+    background-color: pink;
+    height: 60%;
+}
+#left-content{width:20%;}
+#main{width:60%;}
+#right-content{width:20%;}
+#footer{
+    height:10%;
+}
